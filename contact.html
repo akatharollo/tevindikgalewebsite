@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="icon" type="img/x-icon" href="./favicon.ico.ico" />
+
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HRCY3G315"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3HRCY3G315');
+        </script>
+ 
+        
+        <title>Tevin Dikgale</title>
+</head>
+<body>
+
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="img/test2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <main>
+
+
+            <!-- ----------------------------------Services----------------------------------- -->
+            
+        <section class="location">
+        <h1 class="title">Get In Touch</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7295.745000878486!2d29.724986024740947!3d-23.89413943807459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6c8e3690f19d3%3A0x3fc404bc1a7e89ff!2sMankweng-E%2C%20Mankweng%2C%200727!5e0!3m2!1sen!2sza!4v1648760453348!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+        </main>
+        <img class="big-circle" src="./img/big-eclipse.svg" alt="">
+        <img class="medium-circle" src="./img/mid-eclipse.svg" alt=""> 
+
+    </section>
+
+        <!-- ----------------- Contact Me ------------------ -->
+
+
+    <section class="contact-me">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                    <h5>358 Unit E Mankweng</h5>
+                    <p>Polokwane, Limpopo, South Africa</p>
+                    </span>
+                    
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+27 76 159 3339</h5>
+                        <p>Monday to Friday, 8AM to 4PM</p>
+                    </span>
+                    
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@tevindikgale.co.za</h5>
+                        <p>Email your query</p>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="visitor_email" placeholder="Enter your email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="ctb-select">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <!-- ----------------Footer---------------- -->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Tevin Dikgale: A creative, a tech enthusiast, and an ever learning student.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/tevin.dikgale/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/TharolloDikgale" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/tevindikgale/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/tevin-dikgale/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p><i class="fa fa-copyright"></i> Copyright Reserved 2022 | TEVIN DIKGALE</p>
+</section>
+
+
+<script src="https://kit.fontawesome.com/c3e04a2766.js" crossorigin="anonymous"></script>
+
+<!-- ---------------JS for Toggle Menu----------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
